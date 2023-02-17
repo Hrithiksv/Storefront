@@ -1,0 +1,14 @@
+First
+After installing python and pip from homebrew (export path for pip) 
+install the pipenv using pip3
+(it's in .local->share->virtualenvs)
+pipenv install django
+pipenv shell
+(. /Users/hrithikhv/.local/share/virtualenvs/Storefront-9HxwCIs0/bin/activate)
+django-admin startproject storefront .  
+django-admin
+python manage.py
+python manage.py runserver
+pipenv --venv (to get path of venv)
+
+admin password feb@2023

@@ -1,0 +1,18 @@
+<html>
+
+<body>
+
+    <a href="{% url 'playground:home' %}">Index</a>
+
+    
+    <p>Topics</p>
+    <ul>
+        {% for topic in topics %}
+        <li>{{topic}}</li>
+        {%empty%}
+        <li>No topics to display</li>
+        {%endfor%}
+    </ul>
+</body>
+
+</html>
